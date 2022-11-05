@@ -9,3 +9,5 @@
 ![Github Build](https://img.shields.io/github/workflow/status/Ericple/OpenVMSys-Core/.NET?style=flat-square)
 
 This repo contains core components of OpenVMSys
+
+You need to configure the source code and compile it yourself to feed your demand.
