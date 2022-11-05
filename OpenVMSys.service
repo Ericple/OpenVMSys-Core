@@ -1,0 +1,8 @@
+[Unit]
+Description=OpenVMSys service
+
+[Service]
+ExecStart=[Path to your OpenVMSys Executable]
+
+[Install]
+WantedBy=multi-user.target

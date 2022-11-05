@@ -7,7 +7,7 @@
         private StreamReader? _reader;
         private string keyFilePath = Plugins.Path.Path.Join(new string[]
         {
-            "OpenKey"
+            "OpenKey"//Appdomain.BaseDirectory/OpenKey
         });
         /*
          * Security以明文保存于keyFilePath中
