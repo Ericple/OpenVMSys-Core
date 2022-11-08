@@ -5,8 +5,9 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>OpenVMSys_Core</RootNamespace>
-    <Configurations>Debug;Release;Release-ARM</Configurations>
+    <Configurations>Debug;Release</Configurations>
     <Platforms>AnyCPU;ARM64</Platforms>
+    <UserSecretsId>03052269-9bdd-4b10-be71-047adb50d0db</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -16,6 +17,12 @@
 
   <ItemGroup>
     <Folder Include="Resource\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="OpenVMSys-Console">
+      <HintPath>bin\Release\net6.0\OpenVMSys-Console.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>
