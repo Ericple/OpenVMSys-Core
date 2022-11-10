@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Collections;
 using System.Reflection;
-using OpenVMSys_Console.Module;
+using OpenVMSysPluginSystem;
 
 namespace OpenVMSys_Core.Plugins.PluginIntergrator
 {

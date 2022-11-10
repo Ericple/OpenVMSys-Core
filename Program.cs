@@ -1,4 +1,4 @@
-using OpenVMSys_Core.Plugins;
+using OpenVMSysPluginSystem;
 using System.Reflection;
 
 OpenVMSysPluginCore openVMSysPluginCore = new();

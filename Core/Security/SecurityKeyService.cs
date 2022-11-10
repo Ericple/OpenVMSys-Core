@@ -5,7 +5,7 @@
         public static List<SecurityKeyModel> KeyCollection = new();
         private FileStream? _file;
         private StreamReader? _reader;
-        private string keyFilePath = Plugins.Path.Path.Join(new string[]
+        private string keyFilePath = OpenVMSysPluginSystem.Path.Join(new string[]
         {
             "OpenKey"//Appdomain.BaseDirectory/OpenKey
         });
